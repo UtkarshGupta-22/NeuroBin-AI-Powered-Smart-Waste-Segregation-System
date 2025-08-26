@@ -100,7 +100,6 @@ Confusion matrix and accuracy reports are generated via `model_evaluation.py`.
 ## Author
 
 Utkarsh Gupta  
-Project submitted in: ICONSDG (awarded 3rd prize), Make4Lucknow (1st round)
 Domain expertise: Machine Learning, Embedded Systems, Computer Vision
 
 ## License
