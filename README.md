@@ -14,6 +14,10 @@ This project demonstrates how the integration of machine learning with real-worl
 - Real-time inference via camera feed and image classification
 - Integration with servo-controlled physical bins
 
+## 🔌 Circuit Diagram
+
+![Circuit Diagram](Circuit%20Diagram.jpg)
+
 ## Real-World Demonstration
 
 - Apple → Biodegradable → Biodegradable(B) bin opens  
