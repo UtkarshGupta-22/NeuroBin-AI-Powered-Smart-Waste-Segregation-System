@@ -14,7 +14,13 @@ This project demonstrates how the integration of machine learning with real-worl
 - Real-time inference via camera feed and image classification
 - Integration with servo-controlled physical bins
 
-##  Circuit Diagram
+## Why NeuroBin?
+- Real-time AI-powered waste classification
+- Deployed on edge device (Raspberry Pi)
+- Tested on real-world waste scenarios
+- High accuracy with robust generalization
+
+## Circuit Diagram
 
 ![Circuit Diagram](Circuit%20Diagram.jpg)
 
