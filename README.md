@@ -193,6 +193,12 @@ The model demonstrates strong generalization across unseen real-world waste item
 
 The final model (`.keras` or `.tflite`) can be embedded into a Raspberry Pi, Jetson Nano, or ESP32-CAM-based system using OpenCV and GPIO controls to activate bins via servo motors or relays.
 
+## 🎥 Project Demo
+
+<p align="center">
+  <img src="assets/neurobin_demo.gif" width="600"/>
+</p>
+
 ## Evaluation and Metrics
 
 - Validation Accuracy: ~94%
