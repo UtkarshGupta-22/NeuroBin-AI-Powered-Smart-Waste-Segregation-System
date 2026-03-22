@@ -94,7 +94,7 @@ For real-time testing:
 - Upload any waste image
 - View predictions and classification confidence
 
-## 🧪 Model Testing & Results
+## Model Testing & Results
 
 The NeuroBin model was tested on real-world waste items including food, packaging, and mixed materials.
 
@@ -199,7 +199,7 @@ The model demonstrates strong generalization across unseen real-world waste item
 
 The final model (`.keras` or `.tflite`) can be embedded into a Raspberry Pi, Jetson Nano, or ESP32-CAM-based system using OpenCV and GPIO controls to activate bins via servo motors or relays.
 
-## 🎥 Project Demo
+## Project Demo
 
 <p align="center">
   <img src="assets/neurobin_demo.gif" width="600"/>
