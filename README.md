@@ -1,4 +1,4 @@
-# NeuroBin: Smart Waste Segregator using AI and Embedded Systems
+# NeuroBin: AI-Powered Smart Waste Segregation System
 
 NeuroBin is a smart waste classification and segregation system that integrates deep learning and embedded automation to solve the challenge of real-time waste disposal. The system classifies waste as Biodegradable or Non-Biodegradable and triggers a physical mechanism to open the appropriate bin.
 
