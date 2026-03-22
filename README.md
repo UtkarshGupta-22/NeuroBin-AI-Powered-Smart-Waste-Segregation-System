@@ -88,29 +88,101 @@ For real-time testing:
 - Upload any waste image
 - View predictions and classification confidence
 
-## Model Testing & Results
+## 🧪 Model Testing & Results
 
 The NeuroBin model was tested on real-world waste items including food, packaging, and mixed materials.
 
-| Image | Prediction | Confidence |
-|------|------------|------------|
-| ![](test_images/grapes.png) | Biodegradable | 100% |
-| ![](test_images/orange.png) | Biodegradable | 99.98% |
-| ![](test_images/walnut.png) | Biodegradable | 73.21% |
-| ![](test_images/maggi.png) | Biodegradable | 100% |
-| ![](test_images/mathari.png) | Biodegradable | 100% |
-| ![](test_images/pappad.png) | Biodegradable | 100% |
+<table>
+<tr>
+<th>Image</th>
+<th>Prediction</th>
+<th>Confidence</th>
+</tr>
 
-| ![](test_images/kitkat.png) | Non-Biodegradable | 95% |
-| ![](test_images/Lays.png) | Non-Biodegradable | 91.78% |
-| ![](test_images/munch.png) | Non-Biodegradable | 87.97% |
-| ![](test_images/mixture.png) | Biodegradable | 100% |
-| ![](test_images/paper.png) | Non-Biodegradable | 99.98% |
-| ![](test_images/perfume.png) | Non-Biodegradable | XX% |
-| ![](test_images/plastic_scale.png) | Non-Biodegradable | 100% |
-| ![](test_images/frooti.png) | Non-Biodegradable | 68.78% |
-| ![](test_images/butter.png) | Non-Biodegradable | 92.09% |
+<tr>
+<td><img src="test_images/grapes.png" width="150"/></td>
+<td>Biodegradable</td>
+<td>100%</td>
+</tr>
 
+<tr>
+<td><img src="test_images/orange.png" width="150"/></td>
+<td>Biodegradable</td>
+<td>99.98%</td>
+</tr>
+
+<tr>
+<td><img src="test_images/frooti.png" width="150"/></td>
+<td>Non-Biodegradable</td>
+<td>68.78%</td>
+</tr>
+
+<tr>
+<td><img src="test_images/mathari.png" width="150"/></td>
+<td>Biodegradable</td>
+<td>100%</td>
+</tr>
+
+<tr>
+<td><img src="test_images/walnut.png" width="150"/></td>
+<td>Biodegradable</td>
+<td>73.21%</td>
+</tr>
+
+<tr>
+<td><img src="test_images/munch.png" width="150"/></td>
+<td>Non-Biodegradable</td>
+<td>87.97%</td>
+</tr>
+
+<tr>
+<td><img src="test_images/pappad.png" width="150"/></td>
+<td>Biodegradable</td>
+<td>100%</td>
+</tr>
+
+<tr>
+<td><img src="test_images/kitkat.png" width="150"/></td>
+<td>Non-Biodegradable</td>
+<td>87.97%</td>
+</tr>
+
+<tr>
+<td><img src="test_images/mixture.png" width="150"/></td>
+<td>Biodegradable</td>
+<td>100%</td>
+</tr>
+
+<tr>
+<td><img src="test_images/paper.png" width="150"/></td>
+<td>Non-Biodegradable</td>
+<td>99.98%</td>
+</tr>
+
+<tr>
+<td><img src="test_images/perfume.png" width="150"/></td>
+<td>Non-Biodegradable</td>
+<td>100%</td>
+</tr>
+
+<tr>
+<td><img src="test_images/plastic_scale.png" width="150"/></td>
+<td>Non-Biodegradable</td>
+<td>99.96%</td>
+</tr>
+
+</table>
+
+---
+
+### 📊 Model Performance
+- Training Accuracy: 94.28%
+- Validation Accuracy: 93.56%
+
+---
+
+### 🔍 Real-World Testing
+The model demonstrates strong performance across diverse real-world waste categories including organic and synthetic materials.
 ---
 
 ### Model Performance
