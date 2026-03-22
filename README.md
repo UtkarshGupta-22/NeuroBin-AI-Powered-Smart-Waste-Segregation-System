@@ -14,7 +14,7 @@ This project demonstrates how the integration of machine learning with real-worl
 - Real-time inference via camera feed and image classification
 - Integration with servo-controlled physical bins
 
-## 🔌 Circuit Diagram
+##  Circuit Diagram
 
 ![Circuit Diagram](Circuit%20Diagram.jpg)
 
@@ -87,6 +87,42 @@ For real-time testing:
 - Open `model_inference_demo.py` in Google Colab
 - Upload any waste image
 - View predictions and classification confidence
+
+## Model Testing & Results
+
+The NeuroBin model was tested on real-world waste items including food, packaging, and mixed materials.
+
+| Image | Prediction | Confidence |
+|------|------------|------------|
+| ![](test_images/grapes.png) | Biodegradable | 100% |
+| ![](test_images/orange.png) | Biodegradable | 99.98% |
+| ![](test_images/walnut.png) | Biodegradable | 73.21% |
+| ![](test_images/maggi.png) | Biodegradable | 100% |
+| ![](test_images/mathari.png) | Biodegradable | 100% |
+| ![](test_images/pappad.png) | Biodegradable | 100% |
+
+| ![](test_images/kitkat.png) | Non-Biodegradable | 95% |
+| ![](test_images/Lays.png) | Non-Biodegradable | 91.78% |
+| ![](test_images/munch.png) | Non-Biodegradable | 87.97% |
+| ![](test_images/mixture.png) | Biodegradable | 100% |
+| ![](test_images/paper.png) | Non-Biodegradable | 99.98% |
+| ![](test_images/perfume.png) | Non-Biodegradable | XX% |
+| ![](test_images/plastic_scale.png) | Non-Biodegradable | 100% |
+| ![](test_images/frooti.png) | Non-Biodegradable | 68.78% |
+| ![](test_images/butter.png) | Non-Biodegradable | 92.09% |
+
+---
+
+### Model Performance
+- Training Accuracy: 94.28%
+- Validation Accuracy: 93.56%
+
+---
+
+### Real-World Testing
+The model was tested on diverse real-life waste scenarios including food items, plastic packaging, and mixed materials under varying lighting conditions.
+
+The model demonstrates strong generalization across unseen real-world waste items.
 
 ## Deployment
 
