@@ -175,21 +175,14 @@ The NeuroBin model was tested on real-world waste items including food, packagin
 
 ---
 
-### 📊 Model Performance
-- Training Accuracy: 94.28%
-- Validation Accuracy: 93.56%
-
----
-
-### 🔍 Real-World Testing
-The model demonstrates strong performance across diverse real-world waste categories including organic and synthetic materials.
----
+### Key Observations
+- Achieves near-perfect accuracy on organic waste items
+- Strong classification performance on packaged materials
+- Robust across real-world conditions and lighting variations
 
 ### Model Performance
 - Training Accuracy: 94.28%
 - Validation Accuracy: 93.56%
-
----
 
 ### Real-World Testing
 The model was tested on diverse real-life waste scenarios including food items, plastic packaging, and mixed materials under varying lighting conditions.
